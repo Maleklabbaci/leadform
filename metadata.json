@@ -1,0 +1,6 @@
+{
+  "name": "Formulaire de Qualification de Leads",
+  "description": "Formulaire intelligent, épuré et hautement qualifiant pour capturer, trier et prioriser les prospects d'une agence de marketing digital.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

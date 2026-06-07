@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Cairo", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Cairo", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+html, body, button, input, select, textarea {
+  font-family: "Inter", "Cairo", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Perfect alignment and layout rules for Arabic text rendering */
+[lang="ar"], [data-lang="ar"], [lang="ar"] *, [data-lang="ar"] * {
+  font-family: "Cairo", "Segoe UI", Tahoma, Geneva, sans-serif !important;
+}
+
+/* Custom scrollbars for a cleaner, high-end agency look */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #e4e4e7;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d4d4d8;
+}
